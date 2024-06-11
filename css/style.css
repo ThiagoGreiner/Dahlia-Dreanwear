@@ -7,22 +7,22 @@
 
 :root {
   --text-color: #fdf5f6;
-  --bg-url: url(/assets/dark.jpg);
+  --bg-url: url(../assets/dark.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(255, 255, 255, 0.2);
-  --switch-bg-url: url(/assets/moon-stars.svg);
+  --switch-bg-url: url(../assets/moon-stars.svg);
 }
 
 .light {
   --text-color: black;
-  --bg-url: url(/assets/light.jpg);
+  --bg-url: url(../assets/light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
-  --switch-bg-url: url(/assets/sun.svg);
+  --switch-bg-url: url(../assets/sun.svg);
 }
 
 body {
@@ -168,11 +168,11 @@ footer {
 /* Media Queries
 @media (max-width: 576px) {
   :root {
-    --bg-url: url(/assets/darkMobile.jpg);
+    --bg-url: url(../assets/darkMobile.jpg);
   }
 
   .light {
-    --bg-url: url(/assets/lightMobile.jpg);
+    --bg-url: url(../assets/lightMobile.jpg);
   }
 }
  */
