@@ -1,4 +1,4 @@
-/* function toggleMode() {
+function toggleMode() {
   const html = document.documentElement
 
   html.classList.toggle("light")
@@ -11,4 +11,4 @@
     img.setAttribute("src", "../assets/logodark.png")
   }
 }
-*/
+
