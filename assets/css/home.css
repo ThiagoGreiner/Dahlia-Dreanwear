@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-principal: #d8a8ab;
+    --cor-botao: #f3e0e2;
+    --cor-botao-hover: #dbb5b7;
+    --cor-fonts: #d8a8ab;
+    --cor-fonts-hover:#f3e0e2;
+}
+
+/* Navbar-container */
+.navbar-container {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: var(--cor-principal);
+    align-items: center;
+    padding: 0 2rem;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+.logo {
+    width: 300px;
+    height: 80px;
+}
+
+/* Botões */
+#navbar-items li {
+    border-radius: 5%;
+    display: inline-block;
+    margin-left: 10px;
+    text-transform: uppercase;
+    background-color: var(--cor-botao);
+    height: 30px;
+    width: 140px;
+}
+
+#navbar-items li:hover {
+background-color: var(--cor-botao-hover);
+}
+
+#navbar-items .conta {
+    width: 200px;
+}
+
+.button {
+    height: 30px;
+    font-size: 1rem;
+    line-height: 2rem;
+    width: 100%;
+    letter-spacing: 0.3rem;
+    position: relative;
+    display: flex;
+    transition: all 1s ease-in;
+}
+
+.button svg {
+    border-radius: 5%;
+    height: 30px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.button rect {
+    stroke: #fff;
+    stroke-width: 2;
+    stroke-dasharray: 450, 0;
+    transition: all 0.5s linear;
+}
+
+.button:hover rect {
+    stroke-width: 6;
+    stroke-dasharray: 20, 200;
+    stroke-dashoffset: 48;
+    stroke: #fff;
+    transition: all 2s cubic-bezier(0.22, 1, 0.25, 1);
+}
+
+.button p {
+    width: 100%;
+    text-align: center;
+}
+
+#navbar-items a {
+    text-decoration: none;
+    color: var(--cor-fonts);
+}
+
+#navbar-items a:hover {
+    color: #fff;
+}
+
+.cart {
+    width: 33px;
+    margin-left: 20px;
+}
+
+.cart img:hover {
+    width: 35px;
+}
+
+/* Categorias */
+.categorias {
+    margin: 70px 0;
+}
+
+.corpo-categoria {
+    max-width: 1080px;
+    margin: auto;
+    padding: 0 25px;
+}
+
+.col-1 {
+    flex-basis: 30%;
+    max-width: 250px;
+    margin-bottom: 30px;
+}
+
+.col-1 img {
+    width: 100%;
+}
